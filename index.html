@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-decoration: underline;
+        color: blue;
+    }
+    p{
+        text-decoration: overline;
+        color: brown;
+    }
+    body{
+        background-color: lightblue;
+        margin: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #type2{
+
+        color: blue;
+        background-color: white;
+    }
+    .type3{
+        color: red;
+        background-color: white;
+    }
+    #box{
+        border: 10px solid black;
+        color: white;
+        width: 300px;
+        height: 100px;
+        padding-top: 40px;
+        font-size: small;
+        margin: 50px;
+        box-shadow: 5px 10px grey;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtJp-CSvmDeGpkxQYTKkZiY3ZM0evQVdzeHg&usqp=CAU);
+    }
+
+
+</style>
+<body>
+    <h1>Types of Selector in CSS</h1>
+    <ol>
+        <li>
+            <p><strong>Element selector:</strong></p>
+            <div style="color: green;">This selector select elements based on the element name(or tag).</div>
+        </li>
+        <li>
+            <p><strong>Id selector:</strong></p>
+            <div id="type2">This selector uses the id attribute to select specific element.</div>
+        </li>
+        <li>
+            <p><strong>Class selector:</strong></p>
+            <div class="type3">This selector selects HTML with a specific class attribute.</div>
+        </li>
+    </ol>
+    <h1>Example of box model</h1>
+    <div id="box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, necessitatibus ratione ipsum, eaque aperiam voluptate ut ab qui tempore excepturi nobis quisquam recusandae ullam ipsam corrupti magnam porro culpa quibusdam?
+    </div>
+    <h1>CSS border</h1>
+    <div class="box1" style="border-style: dashed;"> dashed</div> <br>
+    <div class="box1" style="border-style: double;"> double</div><br>
+    <div class="box1" style="border-style: inset;"> inset</div><br>
+    <div class="box1" style="border-style: ridge;"> ridge</div>
+    
+</body>
+</html>
